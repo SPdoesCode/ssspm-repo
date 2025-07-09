@@ -8,6 +8,7 @@ src: "https://github.com/dylanaraps/pfetch"
 deps:
   - "sh"
   - "git"
+destdir: false
 
 actions:
   install:
