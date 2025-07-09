@@ -1,0 +1,20 @@
+# End of the pfetch pkg
+
+info:
+  pkgname: "pfetch"
+  author: "dylanaraps"
+  desc: "A pretty system information tool written in POSIX sh"
+  src: "https://github.com/dylanaraps/pfetch"
+  deps:
+    - "sh"
+    - "git"
+
+package:
+  install:
+    - "git clone https://github.com/dylanaraps/pfetch.git"
+    - "cd pfetch"
+    - "install -Dm755 pfetch /usr/bin/pfetch"
+  remove:
+    - "rm -f /usr/bin/pfetch"
+
+# Start of pfetch pkg
