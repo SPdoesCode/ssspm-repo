@@ -1,7 +1,7 @@
 # End of the pfetch pkg
 
 info:
-  pkgname: "pfetch"
+  pkgname: "pfetch-git"
   author: "dylanaraps"
   desc: "A pretty system information tool written in POSIX sh"
   src: "https://github.com/dylanaraps/pfetch"
