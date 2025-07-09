@@ -14,8 +14,8 @@ actions:
   install:
     - "git clone https://github.com/dylanaraps/pfetch.git"
     - "cd pfetch"
-    - "install -Dm755 pfetch /usr/bin/pfetch"
+    - "make install"
   remove:
-    - "rm -f /usr/bin/pfetch"
+    - "make uninstall"
 
 # Start of pfetch pkg
