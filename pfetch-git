@@ -3,13 +3,14 @@
 info:
   pkgname: "pfetch-git"
   author: "dylanaraps"
+  pkgver: "0.6.0"
   desc: "A pretty system information tool written in POSIX sh"
   src: "https://github.com/dylanaraps/pfetch"
   deps:
     - "sh"
     - "git"
 
-package:
+actions:
   install:
     - "git clone https://github.com/dylanaraps/pfetch.git"
     - "cd pfetch"
