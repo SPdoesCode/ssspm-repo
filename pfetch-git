@@ -5,17 +5,15 @@ author: "dylanaraps"
 pkgver: "0.6.0"
 desc: "A pretty system information tool written in POSIX sh"
 src: "https://github.com/dylanaraps/pfetch"
-destdir: false
 deps:
   - "sh"
   - "git"
 
 actions:
-  install:
+  setup:
     - "git clone https://github.com/dylanaraps/pfetch.git"
     - "cd pfetch"
+  install:
     - "make install"
-  remove:
-    - "make uninstall"
 
 # Start of pfetch pkg
